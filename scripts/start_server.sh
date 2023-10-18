@@ -12,4 +12,4 @@ fi
 npm install
 
 # Start the Node.js application using pm2
-pm2 start app.js
+node app.js
