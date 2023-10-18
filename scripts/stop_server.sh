@@ -1,6 +1,4 @@
 #!/bin/bash
 
-isExistApp = `pgrep node`
-if [[ -n $isExistApp ]]; then
-    service node stop
-fi
+# Stop the Node.js application (if it's running)
+pm2 stop app.js
