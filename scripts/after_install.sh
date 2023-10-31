@@ -11,4 +11,4 @@ echo 'pm2 install' >> /home/ec2-user/musician-app/deploy.log
 sudo npm install pm2 -g >> /home/ec2-user/musician-app/deploy.log
 
 echo 'lts install' >> /home/ec2-user/musician-app/deploy.log 
-sudo nvm install --lts >> /home/ec2-user/musician-app/deploy.log 
+nvm install --lts >> /home/ec2-user/musician-app/deploy.log 
